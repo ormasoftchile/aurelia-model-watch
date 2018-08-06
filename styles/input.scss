@@ -1,0 +1,55 @@
+ .model-watcher {
+   font-size: 0.7rem;
+   button.observe {
+     font-size: 0.5rem;
+   }
+   .observed-items {
+     .item-btn {
+       font-size: 1rem;
+       padding-top: 6px;
+     }
+   }
+   .btn-load {
+     margin-left: 3px;
+   }
+ .hide-item {
+   color: transparent;
+   float: right;
+   font-size: 0.6rem;
+ }
+ .observe-item {
+   color: transparent;
+   float: right;
+   font-size: 0.6rem;
+ }
+ 
+ .hide-item:hover {
+   color: red;
+   border: 1px solid red;
+ }
+ .observe-item:hover {
+   color: green;
+   border: 1px solid green;
+ }
+ 
+ .icon {
+   font-family: monospace;
+   border: 1px solid black;
+   padding: 0px 2px;
+   margin: 0;
+   &.none {
+     color: transparent;
+     border: none;
+   }
+   &.none:before {
+     content: '+';
+   }
+   &.minus:before {
+     content: '-';
+   }
+   &.plus:before {
+     content: '+';
+   }
+ }
+ }
+ 

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.build",
+  "compilerOptions": {
+    "outDir": "dist/test",
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "types": [
+      "jasmine"
+    ]
+  },
+  "exclude": [
+    ".vscode",
+    "dist",
+    "doc",
+    "node_modules"
+  ]
+}

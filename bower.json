@@ -1,0 +1,29 @@
+{
+  "name": "aurelia-model-watch",
+  "version": "1.0.0-rc.2.0.0",
+  "description": "A model watch plugin for Aurelia.",
+  "keywords": [
+    "aurelia",
+    "plugin",
+    "model",
+    "watch"
+  ],
+  "homepage": "http://aurelia.io",
+  "main": "dist/commonjs/aurelia-model-watch.js",
+  "moduleType": "node",
+  "license": "MIT",
+  "authors": [
+    "Cristián Ormazábal <cristian@ormasoft.cl>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelia/dialog"
+  },
+  "dependencies": {
+    "aurelia-dependency-injection": "^1.0.0",
+    "aurelia-framework": "^1.0.0",
+    "aurelia-metadata": "^1.0.0",
+    "aurelia-pal": "^1.0.0",
+    "aurelia-templating": "^1.0.0"
+  }
+}

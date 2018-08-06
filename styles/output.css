@@ -1,0 +1,39 @@
+.model-watcher {
+  font-size: 0.7rem; }
+  .model-watcher button.observe {
+    font-size: 0.5rem; }
+  .model-watcher .observed-items .item-btn {
+    font-size: 1rem;
+    padding-top: 6px; }
+  .model-watcher .btn-load {
+    margin-left: 3px; }
+  .model-watcher .hide-item {
+    color: transparent;
+    float: right;
+    font-size: 0.6rem; }
+  .model-watcher .observe-item {
+    color: transparent;
+    float: right;
+    font-size: 0.6rem; }
+  .model-watcher .hide-item:hover {
+    color: red;
+    border: 1px solid red; }
+  .model-watcher .observe-item:hover {
+    color: green;
+    border: 1px solid green; }
+  .model-watcher .icon {
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 0px 2px;
+    margin: 0; }
+    .model-watcher .icon.none {
+      color: transparent;
+      border: none; }
+    .model-watcher .icon.none:before {
+      content: '+'; }
+    .model-watcher .icon.minus:before {
+      content: '-'; }
+    .model-watcher .icon.plus:before {
+      content: '+'; }
+
+/*# sourceMappingURL=output.css.map */
